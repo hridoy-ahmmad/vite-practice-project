@@ -35,7 +35,7 @@ const Nav = () => {
     const [active, setActive] = useState('/')
     return (
         <div className=''>
-            <div className=' py-5 bg-black/70 backdrop-blur-sm shadow-2xl p-5 text-white fixed top-0 left-0 w-full z-50'>
+            <div className=' py-5 bg-black/30 backdrop-blur-xl shadow-2xl p-5 text-white fixed top-0 left-0 w-full z-50'>
                 <nav className='flex justify-between items-center container mx-auto'>
                     <div className='text-2xl font-bold'>Logo</div>
                     <ul className={`md:flex  gap-4 hidden font-semibold text-md`}>

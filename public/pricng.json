@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "plan_name": "Basic",
+        "duration": "1 month",
+        "price_usd": 40,
+        "des": "Perfect for beginners who want to explore the course and get access to all lectures.",
+        "features": [
+            "Access to lectures",
+            "Downloadable resources",
+            "Community support",
+            "Basic quizzes",
+            "Access on mobile & desktop",
+            "Course progress tracking"
+        ]
+    },
+    {
+        "id": 2,
+        "plan_name": "Standard",
+        "duration": "3 months",
+        "price_usd": 100,
+        "popular": true,
+        "des": "Ideal for learners who want guided learning with projects and live Q&A sessions.",
+        "features": [
+            "Access to lectures",
+            "Downloadable resources",
+            "Weekly live Q&A",
+            "Mini-projects",
+            "Assignment feedback",
+            "Discussion forums",
+            "Progress reports",
+            "Access on mobile & desktop"
+        ]
+    },
+    {
+        "id": 3,
+        "plan_name": "Premium",
+        "duration": "6 months",
+        "price_usd": 180,
+        "des": "Best for serious learners seeking mentorship, certificates, and lifetime access to updates.",
+        "features": [
+            "Access to lectures",
+            "Downloadable resources",
+            "Weekly live Q&A",
+            "Mini-projects",
+            "1-on-1 Mentorship",
+            "Certificate of completion",
+            "Resume & portfolio review",
+            "Lifetime access to course updates",
+            "Exclusive webinars",
+            "Priority support",
+            "Access on mobile & desktop"
+        ]
+    }
+]

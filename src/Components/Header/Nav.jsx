@@ -33,10 +33,9 @@ const navs = [
 const Nav = () => {
     const [open, setOpen] = useState(false)
     const [active, setActive] = useState('/')
-
     return (
-        <div>
-            <div className=' py-5 bg-black/30 backdrop-blur-md shadow-2xl p-5 text-white'>
+        <div className=''>
+            <div className=' py-5 bg-black/70 backdrop-blur-sm shadow-2xl p-5 text-white fixed top-0 left-0 w-full z-50'>
                 <nav className='flex justify-between items-center container mx-auto'>
                     <div className='text-2xl font-bold'>Logo</div>
                     <ul className={`md:flex  gap-4 hidden font-semibold text-md`}>
@@ -62,10 +61,10 @@ const Nav = () => {
                     </div>
                 </nav>
             </div>
-
+            
             {/* Mobile menu */}
-            <div className={`md:hidden gap-4 ${open ? "max-h-96 opacity-100" : "max-h-0 opacity-40"}    transition-all duration-500 overflow-hidden`} >
-                <ul className='w-full text-white/90 text-center pt-5 flex flex-col gap-5 text-xl font-bold bg-black/80 backdrop-blur-lg'>
+            <div className={`md:hidden gap-4 ${open ? "max-h-96 opacity-100" : "max-h-0 opacity-40"} backdrop-blur-sm absolute mt-20 left-2  w-[70%] z-50  transition-all duration-500 overflow-hidden`} >
+                <ul className='w-full text-white/90 text-center pt-5 flex flex-col gap-5 text-xl font-bold bg-black/80 '>
                     {
                         navs.map(nav =>
                             <li

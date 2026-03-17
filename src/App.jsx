@@ -21,7 +21,7 @@ function App() {
     const isExist = cart.find(item => item.id === data.id)
     if (!isExist) {
       setcart([...cart, data])
-      toast.success('Successfully added to the cart', {
+      toast.success(`"${data.plan_name}" plan Successfully added to the cart`, {
         autoClose: 1500,
         position: 'top-center',
         style: {
@@ -35,7 +35,7 @@ function App() {
       )
     } else {
       // alert('already added')
-      toast.warning('Already added to the Cart', {
+      toast.warning(`"${data.plan_name}" is Already added to the Cart`, {
         autoClose: 1500,
         position: 'top-center',
         style: {
@@ -49,12 +49,13 @@ function App() {
 
       })
     }
+    return data
   }
 
   const removeHandle = (id) => {
     const filtered = cart.filter(item => item.id !== id)
     setcart(filtered)
-    toast.success('Remove from cart successfully', {
+    toast.success(`Remove from cart successfully`, {
       position: 'top-center',
       autoClose: 1500,
       style: {

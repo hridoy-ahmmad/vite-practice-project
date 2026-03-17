@@ -61,6 +61,7 @@
         "plan_name": "Python Programming",
         "duration": "3 months",
         "price_usd": 110,
+        "popular": true,
         "des": "Start coding with Python and build real-world applications.",
         "features": [
             "Python basics",
@@ -89,6 +90,7 @@
         "plan_name": "Video Editing",
         "duration": "1.5 months",
         "price_usd": 70,
+        "popular": true,
         "des": "Edit professional videos using modern tools.",
         "features": [
             "Premiere Pro basics",

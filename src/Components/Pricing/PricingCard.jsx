@@ -7,23 +7,23 @@ const PricingCard = ({ data, handleAddCart }) => {
     return (
         <div className="card bg-base-100 shadow-sm hover:shadow-2xl transition-all duration-300">
             <div className="card-body flex flex-col justify-between relative">
-
                 <div className="flex flex-col ">
-                    <div className='flex justify-between my-5 items-center  border-b border-b-gray-700'>
+                    <div className='flex justify-between items-center  border-b border-b-gray-300 pb-2 '>
                         <div>
-                            <h2 className="text-3xl font-bold">{plan_name} </h2>
-                            {duration}
+                            <h2 className="text-xl font-bold ">{plan_name} </h2>
+                            <p className='py-2 font-medium'>{duration}</p>
                         </div>
-                        <span className="text-xl">${price_usd}</span>
+                        <span className="text-xl font-semibold">${price_usd}</span>
+
                     </div>
 
-                    <div>
-                        <p>{des}</p>
-                        <ul className="mt-6 flex flex-col gap-2 text-xs">
+                    <div className=''>
+                        <p className='mt-2 font-medium'>{des}</p>
+                        <ul className="mt-6 flex flex-col gap-2 text-xs shadow-lg p-4 rounded-sm">
                             {
                                 features.map(feature =>
-                                    <li className='flex gap-2'>
-                                        <CircleCheckBig /> {feature}
+                                    <li className='flex gap-2 items-center font-medium'>
+                                        <CircleCheckBig className='text-green-600' /> {feature}
                                     </li>)
                             }
 

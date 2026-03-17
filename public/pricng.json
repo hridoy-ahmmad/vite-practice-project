@@ -1,55 +1,144 @@
 [
     {
         "id": 1,
-        "plan_name": "Basic",
+        "plan_name": "Spoken English",
         "duration": "1 month",
         "price_usd": 40,
-        "des": "Perfect for beginners who want to explore the course and get access to all lectures.",
+        "des": "Improve your daily English speaking skills with practical exercises.",
         "features": [
-            "Access to lectures",
-            "Downloadable resources",
-            "Community support",
-            "Basic quizzes",
-            "Access on mobile & desktop",
-            "Course progress tracking"
+            "Basic grammar lessons",
+            "Daily speaking practice",
+            "Common conversation topics",
+            "Audio pronunciation guide",
+            "Mobile & desktop access"
         ]
     },
     {
         "id": 2,
-        "plan_name": "Standard",
+        "plan_name": "Web Development",
         "duration": "3 months",
-        "price_usd": 100,
+        "price_usd": 120,
         "popular": true,
-        "des": "Ideal for learners who want guided learning with projects and live Q&A sessions.",
+        "des": "Learn full web development from HTML to modern frameworks.",
         "features": [
-            "Access to lectures",
-            "Downloadable resources",
-            "Weekly live Q&A",
-            "Mini-projects",
-            "Assignment feedback",
-            "Discussion forums",
-            "Progress reports",
-            "Access on mobile & desktop"
+            "HTML, CSS, JavaScript",
+            "React basics",
+            "Project-based learning",
+            "Code review support",
+            "Live Q&A sessions"
         ]
     },
     {
         "id": 3,
-        "plan_name": "Premium",
-        "duration": "6 months",
-        "price_usd": 180,
-        "des": "Best for serious learners seeking mentorship, certificates, and lifetime access to updates.",
+        "plan_name": "Graphic Design",
+        "duration": "2 months",
+        "price_usd": 80,
+        "des": "Master design tools and create stunning visuals.",
         "features": [
-            "Access to lectures",
-            "Downloadable resources",
-            "Weekly live Q&A",
-            "Mini-projects",
-            "1-on-1 Mentorship",
-            "Certificate of completion",
-            "Resume & portfolio review",
-            "Lifetime access to course updates",
-            "Exclusive webinars",
-            "Priority support",
-            "Access on mobile & desktop"
+            "Photoshop basics",
+            "Illustrator training",
+            "Logo design practice",
+            "Color theory",
+            "Portfolio projects"
+        ]
+    },
+    {
+        "id": 4,
+        "plan_name": "Digital Marketing",
+        "duration": "2 months",
+        "price_usd": 90,
+        "des": "Learn how to promote brands and grow online presence.",
+        "features": [
+            "Facebook ads",
+            "SEO basics",
+            "Content strategy",
+            "Email marketing",
+            "Analytics tools"
+        ]
+    },
+    {
+        "id": 5,
+        "plan_name": "Python Programming",
+        "duration": "3 months",
+        "price_usd": 110,
+        "des": "Start coding with Python and build real-world applications.",
+        "features": [
+            "Python basics",
+            "Problem solving",
+            "Mini projects",
+            "Data structures intro",
+            "Code exercises"
+        ]
+    },
+    {
+        "id": 6,
+        "plan_name": "UI/UX Design",
+        "duration": "2 months",
+        "price_usd": 85,
+        "des": "Design user-friendly interfaces and improve user experience.",
+        "features": [
+            "Figma basics",
+            "Wireframing",
+            "User research",
+            "Prototype design",
+            "UI principles"
+        ]
+    },
+    {
+        "id": 7,
+        "plan_name": "Video Editing",
+        "duration": "1.5 months",
+        "price_usd": 70,
+        "des": "Edit professional videos using modern tools.",
+        "features": [
+            "Premiere Pro basics",
+            "Cut & transitions",
+            "Color grading",
+            "Audio sync",
+            "Export techniques"
+        ]
+    },
+    {
+        "id": 8,
+        "plan_name": "Freelancing",
+        "duration": "1 month",
+        "price_usd": 50,
+        "des": "Learn how to earn online through freelancing platforms.",
+        "features": [
+            "Fiverr setup",
+            "Client communication",
+            "Gig optimization",
+            "Portfolio building",
+            "Payment methods"
+        ]
+    },
+    {
+        "id": 9,
+        "plan_name": "Data Analysis",
+        "duration": "3 months",
+        "price_usd": 130,
+        "des": "Analyze data and make insights using modern tools.",
+        "features": [
+            "Excel basics",
+            "Data cleaning",
+            "Visualization",
+            "Power BI intro",
+            "Real datasets"
+        ]
+    },
+    {
+        "id": 10,
+        "plan_name": "Cyber Security",
+        "duration": "4 months",
+        "price_usd": 150,
+        "popular": true,
+        "des": "Learn how to protect systems and data from cyber threats.",
+        "features": [
+            "Security basics",
+            "Network protection",
+            "Ethical hacking intro",
+            "Risk analysis",
+            "Practical labs"
         ]
     }
 ]

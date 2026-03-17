@@ -9,6 +9,7 @@ import AddCart from './Components/AddCart/AddCart'
 import { toast, ToastContainer } from 'react-toastify'
 import Loader from './Components/Loader'
 import { CheckCheck } from 'lucide-react'
+import Chart from './Components/Chart/Chart'
 
 
 const dataPromise = axios.get('/pricng.json')
@@ -86,6 +87,7 @@ function App() {
           </Suspense>
         </div>
       </div>
+      <Chart></Chart>
       <ToastContainer></ToastContainer>
     </div>
 

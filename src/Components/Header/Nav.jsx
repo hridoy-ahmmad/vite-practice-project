@@ -57,7 +57,7 @@ const Nav = () => {
                         }
                     </button>
                     <div className='hidden md:flex'>
-                        <button className='btn btn-success text-white'>sign up</button>
+                        <button className='py-2 rounded-md cursor-pointer px-5 bg-primary text-white'>sign up</button>
                     </div>
                 </nav>
             </div>
@@ -79,7 +79,7 @@ const Nav = () => {
                         )
                     }
                     <div>
-                        <button className='btn btn-success text-white inline my-5'>sign up</button>
+                        <button className='py-2 rounded-md cursor-pointer px-5 bg-primary text-white'>sign up</button>
                     </div>
                 </ul>
 

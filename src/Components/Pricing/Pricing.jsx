@@ -11,7 +11,7 @@ const Pricing = ({ dataPromise, handleAddCart }) => {
             <div>
                 <h1 className='text-5xl font-bold text-center mb-10'>Choose Your Plan</h1>
             </div>
-           <div className='grid md:grid-cols-3 gap-5'>
+           <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-5'>
              {
                 datum.map((data, index) => <PricingCard key={index} data={data} handleAddCart={handleAddCart}></PricingCard>)
             }

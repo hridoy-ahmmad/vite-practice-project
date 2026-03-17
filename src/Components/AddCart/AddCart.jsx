@@ -13,7 +13,7 @@ const AddCart = ({ cart, removeHandle }) => {
 
 
     return (
-        <div className="bg-white/20 p-5 rounded-xl shadow-lg w-full ">
+        <div className="bg-white p-5 rounded-xl shadow-lg w-full ">
             {/* Cart Header */}
             <h1 className="text-center font-bold text-2xl flex items-center justify-center gap-2 mb-5">
                 <ShoppingCart className="text-2xl text-primary" /> Your Cart ({cart.length})
@@ -27,7 +27,7 @@ const AddCart = ({ cart, removeHandle }) => {
                 {cart.map((item, index) => (
                     <div
                         key={index}
-                        className="bg-white p-4 rounded-xl flex flex-col md:flex-row justify-between items-start md:items-center gap-3 md:gap-0  shadow-md hover:shadow-lg transition-all duration-200"
+                        className="bg-white/80 p-4 rounded-xl flex flex-col md:flex-row justify-between items-start md:items-center gap-3 md:gap-0  shadow-md hover:shadow-lg transition-all duration-200"
                     >
                         <div>
                             <h2 className="font-semibold text-lg">{item.plan_name}</h2>

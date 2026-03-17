@@ -35,10 +35,9 @@ const PricingCard = ({ data, handleAddCart }) => {
                         popular && <span className="badge badge-xs badge-warning">Most Popular</span>
                     }
                 </div>
-                <div
-                    onClick={() => handleAddCart(data)}
-                    className="mt-6">
-                    <button className="btn btn-primary btn-block focus:scale-110">Add to Cart</button>
+                <div className="mt-6 ">
+                    <button onClick={() => handleAddCart(data)}
+                        className="btn btn-primary btn-block focus:scale-110">Add to Cart</button>
                 </div>
             </div>
         </div>

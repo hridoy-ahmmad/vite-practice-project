@@ -12,6 +12,7 @@ import { CheckCheck } from 'lucide-react'
 import Chart from './Components/Chart/Chart'
 
 
+
 const dataPromise = axios.get('/pricng.json')
 
 

@@ -96,8 +96,10 @@ const chartsData = [
 ]
 const Chart = () => {
     return (
-        <div className='bg-violet-50'>
+        <div className='bg-violet-50 py-10'>
+           
             <div className='container mx-auto'>
+                 <h1 className='text-center  text-6xl font-bold text-black/80 py-10'>Students Progress</h1>
             <LineChart
                 style={{ width: '100%', aspectRatio: 1.618, height:600}}
                 margin={{
@@ -115,7 +117,7 @@ const Chart = () => {
                 <Line  dataKey={'react'} stroke='violet'></Line>
                 <XAxis dataKey={'student_name'}></XAxis>
                 <YAxis dataKey={'avg_marks'}></YAxis>
-                <Legend align='right'></Legend>
+                <Legend align='center'></Legend>
                 <Tooltip></Tooltip>
             </LineChart>
         </div>

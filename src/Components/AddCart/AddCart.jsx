@@ -13,7 +13,7 @@ const AddCart = ({ cart, removeHandle }) => {
 
 
     return (
-        <div className="bg-white p-5 rounded-xl shadow-lg w-full ">
+        <div className="bg-white p-5 rounded-xl shadow-lg w-full sticky top-0">
             {/* Cart Header */}
             <h1 className="text-center font-bold text-2xl flex items-center justify-center gap-2 mb-5">
                 <ShoppingCart className="text-2xl text-primary" /> Your Cart ({cart.length})
